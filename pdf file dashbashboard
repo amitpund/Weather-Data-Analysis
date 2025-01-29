@@ -1,1 +1,14 @@
 
+That’s a great goal, Amit! Here’s a potential roadmap to help you build dashboards using 
+Python, PostgreSQL, and Power BI:
+Let’s focus on automating live data retrieval using an API. Here’s how we can approach it:
+Step 1: Understand the API
+• Most APIs require an API key (authentication) and return data in JSON or XML 
+format.
+• Example: Let’s use a public API like OpenWeatherMap to get weather data.
+OpenWeatherMap API Example:
+• API Endpoint: https://api.openweathermap.org/data/2.5/weather
+• Parameters:
+o q: City name (e.g., Mumbai).
+o appid: Your API key (sign up here for free).
+o units: Units (e.g., metric for Celsius)
